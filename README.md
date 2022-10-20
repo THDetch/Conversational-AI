@@ -1,5 +1,7 @@
 # Tekla
 
+Wittmann, Richard (Hauptkontakt)
+Attia, Ahmed 
 
 
 ## Getting started
