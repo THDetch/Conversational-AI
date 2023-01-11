@@ -1,7 +1,7 @@
 # Tekla
 ##### <b> entwickelt von : <br />
 
-###### - Richard Wittmann - Matrikelnummer: 00815907  <br />
+###### - Richard Wittmann - Matrikelnummer: 22109437  <br />
 ###### - Ahmed Attia - Matrikelnummer: 00815907 
 
 ### Beschreibung des Projekts:
