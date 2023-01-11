@@ -1,0 +1,10 @@
+[
+  {
+    "name": "restaurant_art",
+    "pattern": "(\\bitalienisch\\b|\\barabisch\\b|\\bspanisch\\b|\\bmexikanisch\\b|\\basiatisch\\b|\\bchinesisch\\b|\\btürkisch\\b|\\brussisch\\b|\\bukrainisch\\b|\\bportugiesisch\\b|\\bdeutsch\\b)"
+  },
+  {
+    "name": "restaurants",
+    "pattern": "(\\bDöner\\ Bank\\b|\\bIstanbul\\b|\\bKebab\\ Art\\b|\\böz\\ Ankara\\ Döner\\b|\\bAntalya\\ Döner\\b|\\bGasthaus\\ Zur\\ Knödelwerferin\\b|\\bGasthaus\\ Höttl\\b|\\bYaokob\\b|\\bDamaskus\\b|\\bOrienTraum\\ Döner\\b|\\bZur\\ Post\\b|\\bLaurin\\b|\\bMama\\-Mia\\b|\\bHolzofenpizzeria\\b|\\bLa\\ Padella\\b|\\bDiVino\\b|\\bHa\\ Long\\b|\\bHaiky\\ Asian\\ Food\\b|\\bTaverne\\ beim\\ Griechen\\b|\\bIrodion\\b|\\bKouros\\b|\\bTequila\\b)"
+  }
+]

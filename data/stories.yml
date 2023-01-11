@@ -1,0 +1,238 @@
+version: "3.1"
+
+stories:
+  - story: interactive_story_1
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: specific_kitchen
+    - action: action_specific_kitchen
+
+  - story: normal path
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: specific_kitchen
+    - action: action_specific_kitchen
+    - intent: interrupt
+    - action: utter_goodbye
+
+  - story: sad path 1
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: best_restaurants
+    - action: utter_best_restaurants
+    - intent: affirm
+    - action: utter_goodbye
+
+  - story: sad path 2
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: interrupt
+    - action: utter_goodbye
+
+  - story: interactive_story_1
+    steps:
+    - intent: specific_kitchen
+      entities:
+      - restaurant_art: arabisch
+    - slot_was_set:
+      - restaurant_art: arabisch
+    - action: action_specific_kitchen
+    - intent: specific_restaurant
+      entities:
+      - restaurants: Yakob
+    - action: action_specific_restaurant
+    - intent: thank_you
+    - action: utter_goodbye
+
+  - story: story1
+    steps:
+    - intent: specific_restaurant
+      entities:
+      - restaurants: Istanbul
+    - slot_was_set:
+      - restaurants: Istanbul
+    - action: action_specific_restaurant
+    - intent: specific_kitchen
+      entities:
+      - restaurant_art: deutsch
+    - slot_was_set:
+      - restaurant_art: deutsch
+    - action: action_specific_kitchen
+    - intent: thank_you
+    - action: utter_goodbye
+
+  - story: story2
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: website
+      entities:
+      - restaurants: Istanbul
+    - slot_was_set:
+      - restaurants: Istanbul
+    - action: action_website
+    - intent: specific_kitchen
+      entities:
+      - restaurant_art: deutsch
+    - slot_was_set:
+      - restaurant_art: deutsch
+    - action: action_specific_kitchen
+    - intent: thank_you
+    - action: utter_goodbye
+
+  - story: website
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: website
+      entities:
+      - restaurants: DiVino
+    - slot_was_set:
+      - restaurants: DiVino
+    - action: action_website
+
+
+  - story: interactive_story
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: specific_kitchen
+      entities:
+      - restaurant_art: italienisch
+    - slot_was_set:
+      - restaurant_art: italienisch
+    - action: action_specific_kitchen
+    - intent: specific_restaurant
+      entities:
+      - restaurants: Zur Post
+    - action: action_specific_restaurant
+    - intent: website
+      entities:
+      - website: Webseite
+      - restaurants: Istanbul
+    - slot_was_set:
+      - restaurants: Istanbul
+    - action: action_website
+    - intent: thank_you
+    - action: utter_goodbye
+
+  - story: interactive_story_1
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: specific_kitchen
+      entities:
+      - restaurant_art: asiatisch
+    - slot_was_set:
+      - restaurant_art: asiatisch
+    - action: action_specific_kitchen
+    - intent: specific_restaurant
+      entities:
+      - restaurants: Ha Long
+    - slot_was_set:
+      - restaurants: Ha Long
+    - action: action_specific_restaurant
+    - intent: best_dishes
+      entities:
+      - bestseller: best dishes
+    - action: action_best_dishes
+    - intent: best_dishes
+      entities:
+      - bestseller: best dishes
+      - restaurants: Ha Long
+    - action: action_best_dishes
+
+  - story: interactive_story_2
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: nearst_restaurants
+    - action: utter_nearst_restaurants
+    - intent: specific_restaurant
+      entities:
+      - restaurants: Yakob
+    - slot_was_set:
+      - restaurants: Yakob
+    - action: action_specific_restaurant
+    - intent: specific_restaurant
+      entities:
+      - restaurants: Yakob
+    - slot_was_set:
+      - restaurants: Yakob
+    - action: action_specific_restaurant
+    - intent: best_dishes
+      entities:
+      - bestseller: Bestseller
+    - action: action_best_dishes
+    - intent: best_dishes
+      entities:
+      - restaurants: Yakob
+    - slot_was_set:
+      - restaurants: Yakob
+    - action: action_best_dishes
+    - intent: interrupt
+    - action: utter_goodbye
+
+  - story: interactive_story_3
+    steps:
+    - intent: specific_kitchen
+      entities:
+      - restaurant_art: deutsch
+    - slot_was_set:
+      - restaurant_art: deutsch
+    - action: action_specific_kitchen
+    - intent: specific_restaurant
+      entities:
+      - restaurants: Gasthaus Höttl
+    - action: action_specific_restaurant
+    - intent: thank_you
+    - action: utter_goodbye
+
+  - story: interactive_story_4
+    steps:
+    - intent: specific_kitchen
+      entities:
+      - restaurant_art: deutsch
+    - slot_was_set:
+      - restaurant_art: deutsch
+    - action: action_specific_kitchen
+    - intent: menu
+      entities:
+      - menu: Menü
+      - restaurants: Gasthaus Höttl
+    - slot_was_set:
+      - restaurants: Gasthaus Höttl
+    - action: action_website
+    - intent: best_dishes
+    - action: action_best_dishes
+    - intent: best_dishes
+      entities:
+      - restaurants: Yakob
+    - slot_was_set:
+      - restaurants: Yakob
+    - action: action_best_dishes
+    - intent: best_dishes
+      entities:
+      - bestseller: Beststller
+      - restaurants: Gasthaus Höttl
+    - slot_was_set:
+      - restaurants: Gasthaus Höttl
+    - action: action_best_dishes
+    - intent: specific_kitchen
+      entities:
+      - restaurant_art: mexikanisch
+    - slot_was_set:
+      - restaurant_art: mexikanisch
+    - action: action_specific_kitchen
+    - intent: specific_restaurant
+      entities:
+      - restaurants: Tequila
+    - slot_was_set:
+      - restaurants: Tequila
+    - action: action_specific_restaurant
+    - intent: thank_you
+    - action: utter_goodbye

@@ -1,0 +1,271 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hallo
+    - hi
+    - hello
+    - guten morgen
+    - guten tag
+    - huten abend
+    - moin
+    - moin moin
+    - servus
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - auf wiedersehen
+    - aud wiederschauen
+    - wiederschauen
+    - wiedersehen
+    - ciao
+    - tschüss
+    - gute nacht
+    - bye
+    - goodbye
+    - schönen tag noch
+    - schönen tag
+    - schönen abend
+    - bye bye
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - j
+    - ja
+    - ja bitte
+    - yup
+    - jawohl
+    - das wäre gut
+    - das wäre schön
+    - natürlich
+    - klingt gut
+    - freilich
+- intent: thank_you
+  examples: |
+    - danke
+    - danke dir
+    - vielen Dank
+    - thanks
+    - thnak you
+    - merci
+    - ich bedanke mich
+    - alles klar danke
+    - perfekt danke
+- intent: deny
+  examples: |
+    - no
+    - n
+    - nein
+    - nope
+    - Nee
+    - nein danke
+    - niemals
+    - bitte nicht
+    - nie
+    - auf keinen fall
+    - bestimmt nicht
+    - sicher nicht
+- intent: interrupt
+  examples: |
+    - danke, das war es
+    - abbrechen
+    - danke für deine Hilfe
+    - ok danke
+    - cancel
+    - nein
+    - nein danke
+- intent: best_restaurants
+  examples: |
+    - was sind [die besten Restaurants](best)
+    - was sind die [Top-Restaurants](best) in Deggendorf
+    - welche [Restaurants sind am besten](best) in Deggendorf?
+    - welche Restaurants haben die größte Bewertug
+    - welche [Restaurants sind am beliebtesten](best)
+    - was sind [die beliebtesten Restaurants](best)
+- intent: nearst_restaurants
+  examples: |
+    - Welche Restaurants sind in der nähe
+    - was für Restaurants sind in der nähe
+    - was ist das nächste Restaurant
+    - was sind die nächsten Restaurants
+    - welches Restauran ist am nächsten
+    - welche Restaurants sind in der Nähe
+- intent: specific_kitchen
+  examples: |
+    - gibt es in Deggendorf [italienisch](restaurant_art) Restaurants
+    - wo kann man [arabisch](restaurant_art) essen?
+    - was sind die [asiatisch](restaurant_art) Restaurants in Deggendorf
+    - was sind die besten [deutsch](restaurant_art) Restaurants in Deggendorf?
+    - wo gibt es [mexikanisch](restaurant_art) Küche in Deggendorf ?
+    - wo kann man [arabisch](restaurant_art) essen
+    - gibt es [italienische]{"entity": "restaurant_art", "value": "italienisch"} Restaurants in Deggendorf?
+    - wo kann man [asiatisch](restaurant_art) essen in deggedorf
+    - wo kann man [deutsch](restaurant_art) essen
+    - wo kann man [mexikanisch](restaurant_art) essen
+- intent: bot_challenge
+  examples: |
+    - bist du ein Bot?
+    - bist du ein Mensch?
+    - spreche ich gerade mit einem Bot?
+    - spreche ich gerade mit einer Maschine?
+    - hast du auch Hunger?
+    - isst du auch?
+- intent: specific_restaurant
+  examples: |
+    - hat [Damaskus](restaurants) jetzt auf?
+    - wann macht [Istanbul](restaurants) auf?
+    - wie ist [DiVino](restaurants) bewertet?
+    - was ist die Adresse vom [Ha Long](restaurants)
+    - wann macht [Irodion](restaurants) zu?
+    - wo befindet sich [Tequila](restaurants) Restaurant?
+    - ist [Taverne beim Griechen](restaurants) offen?
+    - wann macht [Yakob](restaurants) auf?
+    - wo ist [Yakob](restaurants)?
+    - ist [Zur Post](restaurants) jetzt offen?
+    - hat [Ha Long](restaurants) jetzt offen?
+    - hat [Yakob](restaurants) offen?
+    - wo ist [Tequila](restaurants)
+- intent: website
+  examples: |
+    - hat [Damaskus](restaurants) eine [Webseite](website)?
+    - was ist die [Webseite](website) vom [Istanbul](restaurants)?
+    - wie lautet die [Webseite](website) vom [DiVino](restaurants)?
+    - [Online bestellen](website) im [Ha Long](restaurants)
+    - Link zum [Online-Bestellen](website) im [Irodion](restaurants)?
+    - wie lautet der [Link](website) für [Tequila](restaurants) Restaurant?
+    - kann man im [Taverne beim Griechen](restaurants) online [bestellen](website)?
+    - gib mir die [Webseite](website) vom [Yakob](restaurants) ?
+    - gib mir die [Webseite](website) von [Istanbul](restaurants)
+- intent: menu
+  examples: |
+    - hat [Damaskus](restaurants) eine [Speisekarte](menu)?
+    - was ist die [Speisekarte](menu) im [Istanbul](restaurants)?
+    - welche Gerichte hat [DiVino](restaurants)?
+    - was ist das [Menü](menu) im [Gasthaus Höttl](restaurants)?
+    - was für Teller macht [Irodion](restaurants)?
+    - was macht [Tequila](restaurants) Restaurant?
+    - was ist das [Menü](menu) aom [Gasthaus Höttl](restaurants)
+- intent: best_dishes
+  examples: |
+    - Was sind die [Bestseller](bestseller) im [Damaskus](restaurants)?
+    - hat [Holzofenpizzeria](restaurants) [Bestseller](bestseller)?
+    - was verkauft [Istanbul](restaurants) [am meisten](bestseller)?
+    - wie wird im [DiVino](restaurants) [am meisten](bestseller) bestellt?
+    - Welches Gericht is im [Ha Long](restaurants) [am beliebtesten](bestseller)?
+    - Welche Gerichte is im [Mama-Mia](restaurants) [am beliebtesten](bestseller)?
+    - Welches Gericht hat die [größte Bewertung](bestseller) im [Tequila](restaurants) Restaurant?
+    - Welcher Teller ist im [Taverne beim Griechen](restaurants) [am besten](bestseller)?
+    - Welches Gericht im [Yakob](restaurants) ist [das Beste](bestseller)?
+    - was sind die [best dishes](bestseller) in [Ha Long](restaurants)?
+    - was sind die besteller in
+    - was sind die [best dishes](bestseller)?
+    - was sind die [best dishes](bestseller) in [Ha Long](restaurants)
+    - und was sind die [Bestseller](bestseller) da
+    - die besteller in [Yakob](restaurants)
+    - was sind die Besteller dort
+    - was sind die Besteller in [Yakob](restaurants)
+    - und was sind die [Beststller](bestseller) in [Gasthaus Höttl](restaurants)
+- synonym: italienisch
+  examples: |
+    - italienische
+    - italienisches
+    - italienischen
+    - italienischer
+- synonym: arabisch
+  examples: |
+    - arabische
+    - arabisches
+    - arabischen
+    - arabischer
+- synonym: spanisch
+  examples: |
+    - spanische
+    - spanisches
+    - spanischen
+    - spanischer
+- synonym: mexikanisch
+  examples: |
+    - mexikanische
+    - mexikanisches
+    - mexikanischen
+    - mexikanischer
+- synonym: asiatisch
+  examples: |
+    - asiatische
+    - asiatisches
+    - asiatischen
+    - asiatischer
+- synonym: chinesisch
+  examples: |
+    - chinesische
+    - chinesisches
+    - chinesischen
+    - chinesischer
+- synonym: turkisch
+  examples: |
+    - turkische
+    - turkisches
+    - turkischen
+    - turkischer
+- synonym: russisch
+  examples: |
+    - russische
+    - russisches
+    - russischen
+    - russischer
+- synonym: portugiesisch
+  examples: |
+    - portugiesische
+    - portugiesisches
+    - portugiesischen
+    - portugiesischer
+- synonym: deutsch
+  examples: |
+    - deutsche
+    - deutsches
+    - deutschen
+    - deutscher
+- lookup: restaurant_art
+  examples: |
+    - italienisch
+    - arabisch
+    - spanisch
+    - mexikanisch
+    - asiatisch
+    - chinesisch
+    - turkisch
+    - russisch
+    - portugiesisch
+    - deutsch
+- lookup: restaurants
+  examples: |
+    - Döner Bank
+    - Istanbul
+    - Kebab Art
+    - öz Ankara Döner
+    - Antalya Döner
+    - Gasthaus Zur Knödelwerferin
+    - Gasthaus Höttl
+    - Yakob
+    - Damaskus
+    - OrienTraum Döner
+    - Zur Post
+    - Laurin
+    - Mama-Mia
+    - Holzofenpizzeria
+    - La Padella
+    - DiVino
+    - Ha Long
+    - Haiky Asian Food
+    - Taverne beim Griechen
+    - Irodion
+    - Kouros
+    - Tequila

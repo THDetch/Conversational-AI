@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-restaurant_art",
+      "2": "I-restaurant_art",
+      "3": "L-restaurant_art",
+      "4": "U-restaurant_art",
+      "5": "B-restaurants",
+      "6": "I-restaurants",
+      "7": "L-restaurants",
+      "8": "U-restaurants",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-restaurant_art": 1,
+      "I-restaurant_art": 2,
+      "L-restaurant_art": 3,
+      "U-restaurant_art": 4,
+      "B-restaurants": 5,
+      "I-restaurants": 6,
+      "L-restaurants": 7,
+      "U-restaurants": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]

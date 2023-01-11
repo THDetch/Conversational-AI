@@ -1,0 +1,78 @@
+version: '3.1'
+intents:
+- affirm
+- best_dishes
+- best_restaurants
+- bot_challenge
+- deny
+- goodbye
+- greet
+- interrupt
+- menu
+- nearst_restaurants
+- specific_kitchen
+- specific_restaurant
+- thank_you
+- website
+entities:
+- restaurant_art
+- menu
+- restaurants
+- bestseller
+- website
+- best
+slots:
+  restaurant_art:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: restaurant_art
+  restaurants:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: restaurants
+responses:
+  utter_greet:
+  - text: Hallo, Wie kann ich helfen?
+  - text: Hallo. Na hast du Hunger? Wie kann ich dir helfen?
+  - text: Servus! Was willst du heute essen?
+  - text: Servus! wie kann ich dir helfen?
+  utter_default:
+  - text: Sorry. Ich habe dich leider nicht verstanden. Kannst du bitte wiederholen?
+  utter_did_that_help:
+  - text: War das hilfreich?
+  utter_more_information_about_some_restaurant:
+  - text: Über welches willst du mehr wissen?
+  utter_goodbye:
+  - text: Dann Guten Appetit!
+  - text: Gern geschehen. An Guadn!
+  - text: Guten Appetit!
+  - text: Lass es dir schmecken!
+  - text: Guten Hunger!
+  - text: Tschüss
+  utter_iamabot:
+  - text: Ich bin ein RASA-Bot, der dir beim Finden eines Resaturants hilft, ich aber selbst esse nicht
+  utter_more_help:
+  - text: kann ich dir noch helfen?
+  - text: hast du noch Fragen?
+  - text: brauchst du weitere Hilfe?
+  utter_you_are_welcome:
+  - text: Gern geschehen!
+  - text: Gerne!
+  - text: Immer wieder gerne!
+  utter_nearst_restaurants:
+  - text: Ich habe keinen Zugriff auf deinen Standort, deswegen kann ich nicht sagen, was die nächsten Restaurants sind. Aber das sind die nächsten Resaturants zum Zentrum; RES-1, RES-2, RES-3
+  utter_best_restaurants:
+  - text: Die 3 Top-Restaurants in Deggendorf sind RES-1, RES-2 und RES-3
+actions:
+- action_best_dishes
+- action_specific_kitchen
+- action_specific_restaurant
+- action_website
+- utter_goodbye
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

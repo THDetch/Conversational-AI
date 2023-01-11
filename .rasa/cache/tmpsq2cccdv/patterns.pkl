@@ -1,0 +1,10 @@
+[
+  {
+    "name": "restaurant_art",
+    "pattern": "(\\bitalienisch\\b|\\barabisch\\b|\\bspanisch\\b|\\bmexikanisch\\b|\\basiatisch\\b|\\bchinesisch\\b|\\btürkisch\\b|\\brussisch\\b|\\bukrainisch\\b|\\bportugiesisch\\b)"
+  },
+  {
+    "name": "place",
+    "pattern": "(\\blondon\\b|\\bcairo\\b|\\bamestrdam\\b|\\blisbon\\b|\\bberlin\\b)"
+  }
+]

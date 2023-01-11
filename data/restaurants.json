@@ -1,0 +1,258 @@
+{
+    "turkisch": {
+        "D\u00f6ner Bank": {
+            "bewertung": 3.0,
+            "zeiten": "Von 10:00 bis 20:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.doenerbank.deg"
+        },
+        "Istanbul": {
+            "bewertung": 4.0,
+            "zeiten": "Von 10:00 bis 20:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.istanbul.deg"
+        },
+        "Kebab Art": {
+            "bewertung": 3.0,
+            "zeiten": "Von 10:00 bis 20:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.kebabart.deg"
+        },
+        "\u00f6z Ankara D\u00f6ner": {
+            "bewertung": 3.0,
+            "zeiten": "Von 10:00 bis 20:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.ankara.deg"
+        },
+        "Antalya D\u00f6ner": {
+            "bewertung": 2.8,
+            "zeiten": "Von 10:00 bis 20:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.ankara.deg"
+        }
+    },
+    "deutsch": {
+        "Gasthaus Zur Kn\u00f6delwerferin": {
+            "bewertung": 4.4,
+            "zeiten": "Von 10:00 bis 20:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.knoedelwerferin.deg"
+        },
+        "Gasthaus H\u00f6ttl": {
+            "bewertung": 4.1,
+            "zeiten": "Von 10:00 bis 20:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.hoettl.deg"
+        }
+    },
+    "arabisch": {
+        "Yakob": {
+            "bewertung": 4.5,
+            "zeiten": "Von 10:00 bis 20:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.yakob.deg"
+        },
+        "Damaskus": {
+            "bewertung": 4.4,
+            "zeiten": "Von 10:00 bis 20:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.damaskus.deg"
+        },
+        "OrienTraum D\u00f6ner": {
+            "bewertung": 2.0,
+            "zeiten": "Von 10:00 bis 20:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.OrienTraum_Döner.deg"
+        }
+    },
+    "italienisch": {
+        "Zur Post": {
+            "bewertung": 4.5,
+            "zeiten": "Von 10:00 bis 22:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.knoedelwerferin.deg"
+        },
+        "Laurin": {
+            "bewertung": 4.5,
+            "zeiten": "Von 10:00 bis 22:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.knoedelwerferin.deg"
+        },
+        "Mama-Mia": {
+            "bewertung": 4.6,
+            "zeiten": "Von 10:00 bis 22:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.knoedelwerferin.deg"
+        },
+        "Holzofenpizzeria": {
+            "bewertung": 4.2,
+            "zeiten": "Von 10:00 bis 22:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.knoedelwerferin.deg"
+        },
+        "La Padella": {
+            "bewertung": 4.5,
+            "zeiten": "Von 10:00 bis 22:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.knoedelwerferin.deg"
+        },
+        "DiVino": {
+            "bewertung": 4.1,
+            "zeiten": "Von 10:00 bis 22:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.knoedelwerferin.deg"
+        }
+    },
+    "asiatisch": {
+        "Ha Long": {
+            "bewertung": 2.9,
+            "zeiten": "Von 10:00 bis 22:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.knoedelwerferin.deg"
+        },
+        "Haiky Asian Food": {
+            "bewertung": 3.0,
+            "zeiten": "Von 10:00 bis 22:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.knoedelwerferin.deg"
+        }
+    },
+    "griechisch": {
+        "Taverne beim Griechen": {
+            "bewertung": 4.1,
+            "zeiten": "Von 10:00 bis 22:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.knoedelwerferin.deg"
+        },
+        "Irodion": {
+            "bewertung": 3.6,
+            "zeiten": "Von 10:00 bis 22:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.knoedelwerferin.deg"
+        },
+        "Kouros": {
+            "bewertung": 3.6,
+            "zeiten": "Von 10:00 bis 22:00",
+            "adresse": "Musterstr. 10",
+            "best_seller": [
+                "GER-1",
+                "GER-2",
+                "GER-3"
+            ],
+            "website": "www.knoedelwerferin.deg"
+        }
+    },
+    "mexikanisch": {
+        "Tequila" :{
+        "bewertung": 4.4,
+        "zeiten": "Von 10:00 bis 22:00",
+        "adresse": "Musterstr. 10",
+        "best_seller": [
+            "GER-1",
+            "GER-2",
+            "GER-3"
+        ],
+        "website": "www.knoedelwerferin.deg"
+    }
+    }
+}

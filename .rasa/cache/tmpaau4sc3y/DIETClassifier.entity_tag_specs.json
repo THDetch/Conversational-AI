@@ -1,0 +1,52 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-best",
+      "2": "I-best",
+      "3": "L-best",
+      "4": "U-best",
+      "5": "B-menu",
+      "6": "I-menu",
+      "7": "L-menu",
+      "8": "U-menu",
+      "9": "B-restaurant_art",
+      "10": "I-restaurant_art",
+      "11": "L-restaurant_art",
+      "12": "U-restaurant_art",
+      "13": "B-restaurants",
+      "14": "I-restaurants",
+      "15": "L-restaurants",
+      "16": "U-restaurants",
+      "17": "B-website",
+      "18": "I-website",
+      "19": "L-website",
+      "20": "U-website",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-best": 1,
+      "I-best": 2,
+      "L-best": 3,
+      "U-best": 4,
+      "B-menu": 5,
+      "I-menu": 6,
+      "L-menu": 7,
+      "U-menu": 8,
+      "B-restaurant_art": 9,
+      "I-restaurant_art": 10,
+      "L-restaurant_art": 11,
+      "U-restaurant_art": 12,
+      "B-restaurants": 13,
+      "I-restaurants": 14,
+      "L-restaurants": 15,
+      "U-restaurants": 16,
+      "B-website": 17,
+      "I-website": 18,
+      "L-website": 19,
+      "U-website": 20,
+      "O": 0
+    },
+    "num_tags": 21
+  }
+]

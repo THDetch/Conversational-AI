@@ -1,0 +1,48 @@
+# version: "3.1"
+rules:
+
+  - rule: bot challenge
+    steps:
+    - intent: bot_challenge
+    - action: utter_iamabot
+
+  - rule: Say `hello` when the user starts a conversation with intent `greet`
+    conversation_start: true
+    steps:
+    - intent: greet
+    - action: utter_greet
+
+  - rule: asking for specific kitchen
+    steps:
+    - intent: specific_kitchen
+    - action: action_specific_kitchen
+
+  - rule: asking for specific restaurant
+    steps:
+    - intent: specific_restaurant
+    - action: action_specific_restaurant
+
+  - rule: asking for nearst restaurant
+    steps:
+    - intent: nearst_restaurants
+    - action: utter_nearst_restaurants
+
+  - rule: asking for the menu
+    steps:
+    - intent: menu
+    - action: action_website
+
+  - rule: asking for the website
+    steps:
+    - intent: website
+    - action: action_website
+
+  - rule: asking for bestseller in specific restaurant
+    steps:
+    - intent: best_dishes
+    - action: action_best_dishes
+
+  - rule: asking for best restaurants in the city
+    steps:
+    - intent: best_restaurants
+    - action: utter_best_restaurants

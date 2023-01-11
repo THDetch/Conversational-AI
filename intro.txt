@@ -1,0 +1,3 @@
+activate the enviroment --> C:\Users\aa03907\rasa-devolpment> .\new_venv\Scripts\activate
+
+using rasa --> C:\Users\aa03907\rasa-devolpment\rasa_project> rasa -h
