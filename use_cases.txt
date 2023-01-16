@@ -1,0 +1,16 @@
+
+1- Wenn man nach den besten Restaurants sucht, werden die besten 3 davon als auswahl wiedergegeben
+
+2- Wenn man nach den nächsten Restaurants sucht, werden die nächsten 3 davon als auswahl wiedergegeben
+
+3- Wenn man nach einer bestimmten art von küche sucht(z.B Italienisch),
+	* wenn es nur drei oder weniger sind werden diese als auswahl wiedergegeben
+     	* wenn es mehr als 3 möglichkeiten gibt wird gefragt ob man die drei besten oder drei nächsten wiedergegeben bekommen soll
+
+4- Wenn mann nach einem spezifischen Restaurant sucht, werden die Informations über das Restaurant geben (Adresse, Öffnungszeiten und Bewertung)
+
+5- Wenn man nach der Speise karte fragt, wird diese als Link präsentiert
+
+6- wenn man nach den besten Gerichten frägt, werden diese kurz wiedergegeben
+
+7- Wenn man nach der Website frägt, wird sie als Link präsentiert
